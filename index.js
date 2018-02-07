@@ -22,7 +22,7 @@ function currentLine(array){
   }else{
     for(var i = 0; i < array.length; i++){
       if(i<array.length-1){
-        string = string + `${i+1}. ${array[i]}, `string = string + `${i+1}. ${array[i]}, `;
+        string = string + `${i+1}. ${array[i]}, `;
       }else{
         string = string + `${i+1}. ${array[i]}`
       }
